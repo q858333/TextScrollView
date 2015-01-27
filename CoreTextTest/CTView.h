@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface CTView : UIView
+#import "CTColumnView.h"
+@interface CTView : UIScrollView
 @property (strong, nonatomic) NSAttributedString* attString;
+@property (strong, nonatomic) NSMutableArray* frames; //每行内容
 
+
+- (void)buildFrames;
 @end

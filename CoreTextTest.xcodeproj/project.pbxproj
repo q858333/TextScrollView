@@ -14,13 +14,14 @@
 		F7DCC6511A7744080069795D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DCC6501A7744080069795D /* Images.xcassets */; };
 		F7DCC6541A7744080069795D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DCC6521A7744080069795D /* LaunchScreen.xib */; };
 		F7DCC6601A7744080069795D /* CoreTextTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DCC65F1A7744080069795D /* CoreTextTestTests.m */; };
-		F7DCC66B1A7744230069795D /* CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DCC66A1A7744230069795D /* CTView.m */; };
 		F7DCC66D1A77445E0069795D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DCC66C1A77445E0069795D /* CoreText.framework */; };
 		F7DCC66F1A7744660069795D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DCC66E1A7744660069795D /* QuartzCore.framework */; };
-		F7DCC6721A7746B10069795D /* MarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DCC6711A7746B10069795D /* MarkupParser.m */; };
 		F7DCC6751A7746FC0069795D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DCC6741A7746FC0069795D /* UIKit.framework */; };
 		F7DCC6781A774B940069795D /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7DCC6761A774B940069795D /* test.txt */; };
 		F7DCC6791A774B940069795D /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7DCC6771A774B940069795D /* TemplateIcon2x.png */; };
+		F7DCC6BB1A775B460069795D /* aizaixianjingderizi.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7DCC6BA1A775B460069795D /* aizaixianjingderizi.txt */; };
+		F7DCC6C01A775B4F0069795D /* CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DCC6BD1A775B4F0069795D /* CTView.m */; };
+		F7DCC6C11A775B4F0069795D /* CTColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DCC6BF1A775B4F0069795D /* CTColumnView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,16 +48,17 @@
 		F7DCC6591A7744080069795D /* CoreTextTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTextTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DCC65E1A7744080069795D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7DCC65F1A7744080069795D /* CoreTextTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextTestTests.m; sourceTree = "<group>"; };
-		F7DCC6691A7744230069795D /* CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTView.h; sourceTree = "<group>"; };
-		F7DCC66A1A7744230069795D /* CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTView.m; sourceTree = "<group>"; };
 		F7DCC66C1A77445E0069795D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		F7DCC66E1A7744660069795D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		F7DCC6701A7746B10069795D /* MarkupParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkupParser.h; sourceTree = "<group>"; };
-		F7DCC6711A7746B10069795D /* MarkupParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkupParser.m; sourceTree = "<group>"; };
 		F7DCC6731A7746ED0069795D /* my_header.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_header.pch; sourceTree = "<group>"; };
 		F7DCC6741A7746FC0069795D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F7DCC6761A774B940069795D /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		F7DCC6771A774B940069795D /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		F7DCC6BA1A775B460069795D /* aizaixianjingderizi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aizaixianjingderizi.txt; sourceTree = "<group>"; };
+		F7DCC6BC1A775B4F0069795D /* CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTView.h; sourceTree = "<group>"; };
+		F7DCC6BD1A775B4F0069795D /* CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTView.m; sourceTree = "<group>"; };
+		F7DCC6BE1A775B4F0069795D /* CTColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTColumnView.h; sourceTree = "<group>"; };
+		F7DCC6BF1A775B4F0069795D /* CTColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTColumnView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +110,11 @@
 				F7DCC6481A7744080069795D /* AppDelegate.m */,
 				F7DCC64A1A7744080069795D /* ViewController.h */,
 				F7DCC64B1A7744080069795D /* ViewController.m */,
-				F7DCC6691A7744230069795D /* CTView.h */,
-				F7DCC66A1A7744230069795D /* CTView.m */,
-				F7DCC6701A7746B10069795D /* MarkupParser.h */,
-				F7DCC6711A7746B10069795D /* MarkupParser.m */,
+				F7DCC6BC1A775B4F0069795D /* CTView.h */,
+				F7DCC6BD1A775B4F0069795D /* CTView.m */,
+				F7DCC6BE1A775B4F0069795D /* CTColumnView.h */,
+				F7DCC6BF1A775B4F0069795D /* CTColumnView.m */,
+				F7DCC6BA1A775B460069795D /* aizaixianjingderizi.txt */,
 				F7DCC6761A774B940069795D /* test.txt */,
 				F7DCC6771A774B940069795D /* TemplateIcon2x.png */,
 				F7DCC64D1A7744080069795D /* Main.storyboard */,
@@ -233,6 +236,7 @@
 				F7DCC64F1A7744080069795D /* Main.storyboard in Resources */,
 				F7DCC6541A7744080069795D /* LaunchScreen.xib in Resources */,
 				F7DCC6781A774B940069795D /* test.txt in Resources */,
+				F7DCC6BB1A775B460069795D /* aizaixianjingderizi.txt in Resources */,
 				F7DCC6511A7744080069795D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DCC6C11A775B4F0069795D /* CTColumnView.m in Sources */,
 				F7DCC64C1A7744080069795D /* ViewController.m in Sources */,
-				F7DCC66B1A7744230069795D /* CTView.m in Sources */,
+				F7DCC6C01A775B4F0069795D /* CTView.m in Sources */,
 				F7DCC6491A7744080069795D /* AppDelegate.m in Sources */,
-				F7DCC6721A7746B10069795D /* MarkupParser.m in Sources */,
 				F7DCC6461A7744080069795D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +454,7 @@
 				F7DCC6651A7744080069795D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7DCC6661A7744080069795D /* Build configuration list for PBXNativeTarget "CoreTextTestTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +463,7 @@
 				F7DCC6681A7744080069795D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

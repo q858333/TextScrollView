@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "CTView.h"
-#import "MarkupParser.h"
 @interface ViewController ()
 
 @end
@@ -17,18 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    CTView *view=[[CTView alloc]initWithFrame:self.view.bounds];
-    view.backgroundColor=[UIColor whiteColor];
-    [self.view addSubview:view];
-    
     NSString *path = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"txt"];
     NSString* text = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:NULL];
-    MarkupParser* p = [[MarkupParser alloc] init] ;
-    NSAttributedString* attString = [p attrStringFromMarkup: text];
     
-    [view setAttString: attString];
+    NSAttributedString* aString =
+    [[NSAttributedString alloc] initWithString:text];
     
+    
+    CTView *view=[[CTView alloc]initWithFrame:self.view.bounds];
+        
+    [view setAttString: aString];//添加显示的内容
+    
+    [view buildFrames];//绘制内容
+    
+    [self.view addSubview:view];
+
 }
     // Do any additional setup after loading the view, typically from a nib.
 
